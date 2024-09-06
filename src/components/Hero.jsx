@@ -3,17 +3,16 @@ import { assets } from "../assets/frontend_assets/assets";
 function Hero() {
   return (
     <>
-      <h1>hero section</h1>
       <div
         className="flex flex-row items-end bg-cover h-[600px] w-full rounded-2xl "
         style={{ backgroundImage: `url(${assets.hero_img})` }}
       >
-        <div class="flex flex-col items-start p-6 w-full">
-          <h1 class="font-bold text-3xl lg:text-5xl leading-relaxed py-4 md:text-base text-white uppercase">
+        <div className="flex flex-col items-start p-6 w-full">
+          <h1 className="font-bold text-3xl lg:text-5xl leading-relaxed py-4 md:text-base text-white uppercase">
             shoplystic Spring Collection
           </h1>
           <div className="flex items-center justify-between w-full pr-5">
-            <p class="flex text-base text-white">
+            <p className="flex text-base text-white">
               Find our best spring collection offering our best quality products
               in a shoplystic spring collection.
             </p>
